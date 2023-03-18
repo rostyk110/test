@@ -1,6 +1,5 @@
-name: "CodeQL"
+name: CodeQL
 on:
-  push:
   pull_request:
     branches:
       - main
@@ -10,7 +9,7 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       actions: read
-      contents: read
+      contents: readc
       security-events: write
     strategy:
       fail-fast: false
