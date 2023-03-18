@@ -26,7 +26,7 @@ function bblSort(arr){
 
 
 // This is our unsorted array
-var arr = [234, 43, 55, 63, 5, 6, 235, 547];
+var arr = [234, 43, 55, 63, 5, 6, 235, 547, 10];
 
 
 // Now pass this array to the bblSort() function
