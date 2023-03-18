@@ -15,6 +15,7 @@ number_arr.push(70, 80, 90);
 // string_arr contains
 // ["piyush", "gourav", "smruti", "ritu", "sumit", "amit"];
 string_arr.push("sumit", "amit");
+string_arr.pop();
 
 // Printing both the array after performing push operation
 console.log("After push op " + number_arr);
