@@ -6,3 +6,4 @@ const even = (element) => element % 2 === 0
 const odd = (element) => element % 2 !== 0
 
 console.log(array.some(even))
+console.log(array.some(odd))
